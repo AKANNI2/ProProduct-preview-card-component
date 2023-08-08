@@ -1,0 +1,87 @@
+/* Below 660px */
+
+@media (max-width: 41em) {
+  .container {
+    gap: 1rem;
+    /* margin-bottom: 1rem; */
+    /* height: 100vh; */
+  }
+
+  .card {
+    grid-template-columns: 1fr;
+    grid-template-rows: 45fr 55fr;
+    width: 45rem;
+    height: 70rem;
+    margin: 4rem 0;
+  }
+
+  .card-img-box {
+    background-image: url(images/image-product-mobile.jpg);
+    height: 100%;
+  }
+
+  .text-decription {
+    font-size: 1.6rem;
+    line-height: 1.6;
+  }
+}
+
+/* Below 470px */
+
+@media (max-width: 29em) {
+  .card {
+    max-width: 40em;
+  }
+
+  .heading-primary {
+    font-size: 3.2rem;
+  }
+}
+
+/* Below 430px */
+@media (max-width: 27em) {
+  .card {
+    max-width: 38rem;
+  }
+}
+
+/* Below 395px */
+
+@media (max-width: 25em) {
+  .card {
+    max-width: 35rem;
+    /* grid-template-rows: 55fr 45fr; */
+  }
+}
+
+/* Below 370px */
+
+@media (max-width: 23em) {
+  .card {
+    max-width: 33em;
+  }
+}
+
+/* Below 350px */
+
+@media (max-width: 21em) {
+  .card {
+    max-width: 30em;
+  }
+}
+
+/* Below 315px */
+
+@media (max-width: 19em) {
+  .card {
+    max-width: 28em;
+  }
+}
+
+/* Below 294 */
+
+@media (max-width: 18em) {
+  .card {
+    max-width: 26em;
+  }
+}

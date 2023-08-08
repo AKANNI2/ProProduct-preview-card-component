@@ -1,0 +1,129 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  background-color: hsl(30, 38%, 92%);
+
+  height: 100vh;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  box-shadow: 0 0 3rem 0 rgba(0, 0, 0, 0.09);
+  border-radius: 0.9rem;
+  width: 60rem;
+  height: 42rem;
+  overflow: hidden;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.card-img-box {
+  background-image: url(images/image-product-desktop.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.card-text-box {
+  padding: 2.8rem 2.8rem;
+}
+
+.heading-secondary {
+  font-family: "Montserrat", sans-serif;
+  color: hsl(228, 12%, 48%);
+  font-weight: 500;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.5rem;
+}
+
+.heading-primary {
+  font-size: 3rem;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  color: hsl(212, 21%, 14%);
+  margin-bottom: 2rem;
+  line-height: 1;
+}
+
+.text-decription {
+  color: hsl(228, 12%, 48%);
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.4;
+  margin-bottom: 2.8rem;
+}
+
+.price-tag {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  margin-bottom: 3rem;
+}
+
+.price {
+  color: hsl(158, 36%, 37%);
+  font-family: "Fraunces", serif;
+  font-size: 3.2rem;
+  font-weight: 700;
+}
+
+.price-tag span {
+  color: hsl(228, 12%, 48%);
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+
+.btn:link,
+.btn:visited {
+  background-color: hsl(158, 36%, 37%);
+  color: hsl(0, 0%, 100%);
+  font-weight: 600;
+  padding: 1.2rem 0;
+  text-decoration: none;
+  border-radius: 0.9rem;
+  transition: all ease 0.3s;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #12261f;
+}
+
+.btn-icon {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.btn span {
+  font-size: 1.4rem;
+}
+
+.attribution {
+  font-size: 1.6rem;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
